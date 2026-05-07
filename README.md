@@ -3,8 +3,8 @@
 > Google Docs for code - Real-time collaborative editing with WebSockets, Monaco Editor, multi-language support, and AI-powered suggestions
 
 [![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://react.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
-[![Socket.io](https://img.shields.io/badge/Socket.io-4.6.1-black.svg)](https://socket.io/)
+[![Java 17 + Spring Boot](https://img.shields.io/badge/Java 17 + Spring Boot-18+-green.svg)](https://nodejs.org/)
+[![Java 17 + SprSpring WebSocket + STOMPing Boot](https://img.shields.io/badge/Java 17 + SprSpring WebSocket + STOMPing Boot-4.6.1-black.svg)](https://Java 17 + SprSpring WebSocket + STOMPing Boot/)
 [![Monaco Editor](https://img.shields.io/badge/Monaco%20Editor-Latest-blue.svg)](https://microsoft.github.io/monaco-editor/)
 [![Docker](https://img.shields.io/badge/Docker-Enabled-blue.svg)](https://www.docker.com/)
 
@@ -30,7 +30,7 @@
 - 🔄 **Auto-Sync**: Changes sync instantly across all connected clients
 
 ### Technical Features
-- 🚀 **WebSocket Communication**: Low-latency real-time updates via Socket.IO
+- 🚀 **WebSocket Communication**: Low-latency real-time updates via Java 17 + SprSpring WebSocket + STOMPing Boot
 - 📦 **Session Management**: In-memory session storage with automatic cleanup
 - 🎭 **Syntax Highlighting**: Language-specific highlighting and formatting
 - 🔒 **Isolated Sessions**: Each session maintains independent state
@@ -41,14 +41,14 @@
 ### Frontend
 - **React 18.2** - UI framework
 - **Monaco Editor** - Code editor component (powers VS Code)
-- **Socket.io Client** - WebSocket client
+- **Java 17 + SprSpring WebSocket + STOMPing Boot Client** - WebSocket client
 - **React Router** - Navigation and routing
 - **CSS3** - Styling
 
 ### Backend
-- **Node.js 18+** - JavaScript runtime
+- **Java 17 + Spring Boot 18+** - JavaScript runtime
 - **Express.js** - Web application framework
-- **Socket.io** - Real-time bidirectional communication
+- **Java 17 + SprSpring WebSocket + STOMPing Boot** - Real-time bidirectional communication
 - **UUID** - Session ID generation
 - **CORS** - Cross-origin resource sharing
 
@@ -63,13 +63,13 @@
 │  Client 1   │───┐
 └─────────────┘   │
                   │     WebSocket
-┌─────────────┐   │    (Socket.IO)
+┌─────────────┐   │    (Java 17 + SprSpring WebSocket + STOMPing Boot)
 │  Client 2   │───┼──────────────┐
 └─────────────┘   │              │
                   │         ┌────▼────┐
 ┌─────────────┐   │         │         │
 │  Client N   │───┘         │  Server │
-└─────────────┘             │ (Node.js│
+└─────────────┘             │ (Java 17 + Spring Boot│
                             │ Express)│
                             └────┬────┘
                                  │
@@ -98,7 +98,7 @@
 ## 🚀 Installation
 
 ### Prerequisites
-- Node.js 18+ and npm
+- Java 17 + Spring Boot 18+ and npm
 - Docker and Docker Compose (for containerized setup)
 
 ### Option 1: Docker Compose (Recommended)
@@ -196,7 +196,7 @@ socket.emit('language-change', {
 \`\`\`
 realtime-code-editor/
 ├── server/
-│   ├── server.js              # Socket.IO server & session management
+│   ├── server.js              # Java 17 + SprSpring WebSocket + STOMPing Boot server & session management
 │   ├── package.json           # Backend dependencies
 │   └── Dockerfile             # Backend containerization
 ├── client/
@@ -253,7 +253,7 @@ This project is open source and available under the MIT License.
 ## 🙏 Acknowledgments
 
 - Monaco Editor by Microsoft
-- Socket.io for real-time communication
+- Java 17 + SprSpring WebSocket + STOMPing Boot for real-time communication
 - React community for excellent tools
 - Docker for simplified deployment
 
